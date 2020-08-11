@@ -1,0 +1,15 @@
+
+
+name = input("Pleass Enter your Name:")
+
+color = input("Please Enter your favorite color:")
+#since the age is going to be a number then we have to use number
+age = int(input("Please Enter your Age:"))
+
+
+print(name)
+
+# Here I am .format instead of using " " to create a space between the is and the age...
+print("is {}".format(str(age)) + " " + "years old")
+
+print("and loves the color {}".format(color) + ".", sep=" ")
